@@ -6,7 +6,7 @@ namespace Open_Lab_01._01
     {
         public bool IsLessThan10(string input)
         {
-            throw new NotImplementedException();
+            return int.Parse(input) < 10;
         }
     }
 }
